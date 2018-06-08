@@ -6,3 +6,4 @@ if [ "$EUID" -ne 0 ]
 fi
 
 yum -y install lighttpd lighttpd-fastcgi
+sudo usermod -aG lighttpd $(whoami)

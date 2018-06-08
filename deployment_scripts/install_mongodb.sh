@@ -15,3 +15,5 @@ yum -y install mongodb-org
 
 systemctl start mongod
 systemctl enable mongod
+
+sudo usermod -aG mongod $(whoami)
