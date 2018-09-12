@@ -14,7 +14,7 @@ smtp:
 
 mongo_opt:
     database: INGInious
-    host: mongodb://root:default-xEas5ht3tGV6So0npsHj4yIy@localhost/INGInious
+    host: localhost
 superadmins:
 - superadmin
 tasks_directory: /var/www/INGInious/tasks

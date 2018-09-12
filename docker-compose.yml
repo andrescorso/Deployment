@@ -26,4 +26,7 @@ services:
     environment:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: ${DB_PASSWORD}
-    volumes: inginious-data:/data/db
+    volumes: 
+      - inginious_data:/data/db
+volumes:
+  inginious_data:
