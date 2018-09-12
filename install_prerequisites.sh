@@ -24,7 +24,6 @@ done
 sudo yum install -y epel-release https://centos7.iuscommunity.org/ius-release.rpm
 sudo yum install -y git gcc libtidy python35u python35u-pip python35u-devel zeromq-devel
 sudo chmod +x deployment_scripts/*.sh
-sudo bash deployment_scripts/install_mongodb.sh
 bash deployment_scripts/install_docker.sh
 bash deployment_scripts/install_node.sh
 if [ "$SERVER" == "APACHE" ]

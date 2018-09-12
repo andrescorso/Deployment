@@ -5,9 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-echo "adding apache to mongo and docker group"
+echo "adding apache to docker group"
 usermod -aG docker apache
-usermod -aG mongodb apache
 
 mkdir -p /var/www/INGInious
 mkdir -p /var/www/INGInious/tasks

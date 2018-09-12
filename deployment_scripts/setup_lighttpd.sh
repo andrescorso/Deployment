@@ -13,7 +13,6 @@ mkdir -p /var/www/INGInious/
 mkdir -p /var/www/INGInious/tasks
 mkdir -p /var/www/INGInious/backup
 usermod -aG docker lighttpd
-usermod -aG mongodb lighttpd
 chown -R lighttpd:lighttpd /var/www/INGInious
 cp $current_path/configuration.yaml /var/www/INGInious/
 cp $current_path/lighttpd.conf /etc/lighttpd/
