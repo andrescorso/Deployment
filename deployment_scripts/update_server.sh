@@ -2,7 +2,7 @@
 
 #update server with latest version of UNcode's INGInious, a branch can also be specified to the script via the -b tag
 
-BRANCH=""
+BRANCH="hdl-gradergenerator"
 while getopts "b:" opt; do
     case $opt in
         b)
